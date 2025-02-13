@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Ex07.css" />
+    <title>Message Modal</title>
+  </head>
+  <body>
+    <div class="popup-modal">
+      <div class="popup-content">
+        <div class="popup-header">
+          <h2>Send a message</h2>
+          <span class="close-btn"><i class="fas fa-times"></i></span>
+        </div>
+        <div class="popup-body">
+          <label for="to-user">To:</label>
+          <input type="text" id="to-user" placeholder="@username" readonly />
+
+          <label for="msg-content">Message:</label>
+          <textarea id="msg-content" rows="5" placeholder="Type your message..."></textarea>
+        </div>
+        <div class="popup-footer">
+          <button class="btn send-btn">Send</button>
+          <button class="btn cancel-btn">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
